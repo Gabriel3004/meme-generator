@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Memegenerator from './assets/component/memegenerator'
 import './App.css'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      
+    <Memegenerator />
     </>
   )
 }
